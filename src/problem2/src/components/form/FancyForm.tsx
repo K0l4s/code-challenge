@@ -110,7 +110,7 @@ const FancyForm = () => {
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4 md:p-8 grid grid-cols-1 xl:grid-cols-2">
-            <div className="max-w-lg mx-auto bg-white rounded-2xl shadow-2xl p-6 md:p-8 border border-gray-100 transform hover:scale-[1.02] transition-all duration-300">
+            <div className="max-w-sm mx-auto bg-white rounded-2xl shadow-2xl p-6 md:p-8 border border-gray-100 transform hover:scale-[1.02] transition-all duration-300">
                 <h1 className="text-center text-3xl font-bold p-5">Fancy Token Converter</h1>
 
                 {errorConvert.isError && (
